@@ -1,6 +1,5 @@
 
 # EX 1C Valid Pairs using Brute Force Approach
-## DATE:
 
 ## AIM:
 To write a Java program to for given constraints.
@@ -12,7 +11,6 @@ x if x >= 0.
 -x if x < 0.
 
 ## Algorithm
-
 1.Start the program.
 
 2.Input the size of the array n, the n array elements, and an integer k.
@@ -21,18 +19,22 @@ x if x >= 0.
 
 4.Compare each pair of elements:
 
-Use two loops: For each i from 0 to n-1, and for each j from i+1 to n-1, check if the absolute difference |nums[i] - nums[j]| == k.
+Use two loops:
+For each i from 0 to n-1,
+and for each j from i+1 to n-1,
+check if the absolute difference |nums[i] - nums[j]| == k.
 
 If true, increment count by 1.
 
-5.Display the total count of such pairs and stop the program.   
+5.Display the total count of such pairs and stop the program. 
 
 ## Program:
 ```
+
 /*
 Program to implement Reverse a String
-Developed by: NANDHIKA P
-Register Number: 212223040125
+Developed by: POZHILAN V D
+Register Number: 212223240118
 */
 
 import java.util.Scanner;
@@ -66,7 +68,7 @@ public class CountPairsWithDifference {
 
 ## Output:
 
-<img width="380" height="276" alt="image" src="https://github.com/user-attachments/assets/c23c388d-8d12-4052-9b5f-4a7563bfdff4" />
+<img width="396" height="290" alt="image" src="https://github.com/user-attachments/assets/71cc1b06-d4e6-422a-8707-63a95b3a879b" />
 
 
 ## Result:
