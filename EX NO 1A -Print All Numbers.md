@@ -26,8 +26,8 @@ End loop and stop the program.
 ```
 /*
 Program to implement Reverse a String
-Developed by: POZHILAN V D
-Register Number: 212223240118
+Developed by: NANDHIKA P
+Register Number: 212223040125
 
 import java.util.*; 
 public class demo   
@@ -58,3 +58,4 @@ public class demo
 
 
 ## Result:
+The program successfully print all the numbers from 1 to N. 
