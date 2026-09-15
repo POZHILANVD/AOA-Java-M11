@@ -1,9 +1,31 @@
 
+# EX 1D Sorted Array using Divide and Conquer Approach.
+
+## AIM:
+To write a Java program to for given constraints.
+Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+
+The overall run time complexity should be O(log (m+n)).
+
+## Algorithm
+1.Start the program.
+Read the sizes of two sorted arrays m and n, then input the elements of both arrays nums1 and nums2.
+
+2.Initialize two pointers p1 = 0 and p2 = 0 to traverse both arrays.
+
+3.Use a helper function getMin() to return the smaller of the current elements from both arrays and move the corresponding pointer forward.
+
+4.Find the median:
+
+If the total number of elements (m + n) is even, skip (m + n)/2 - 1 elements, then take the average of the next two smallest elements as the median.
+
+If (m + n) is odd, skip (m + n)/2 elements, then take the next smallest element as the median.
 
 5.Display the computed median and stop the program.  
 
 ## Program:
 ```
+
 /*
 Program to implement Reverse a String
 Developed by: POZHILAN V D
@@ -73,8 +95,7 @@ public class Solution {
 ```
 
 ## Output:
-
-<img width="874" height="323" alt="image" src="https://github.com/user-attachments/assets/1e73d8b1-abfe-459f-b6a3-b44d41850f78" />
+<img width="883" height="330" alt="image" src="https://github.com/user-attachments/assets/d430c9c0-0455-4220-811f-1a6ab58b32f7" />
 
 ## Result:
 The program successfully implemented and the expected output is verified.
