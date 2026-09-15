@@ -29,8 +29,8 @@ If the result is 0, then n is a power of two; otherwise, it is not.
 ```
 /*
 Program to implement Reverse a String
-Developed by: POZHILAN V D
-Register Number: 212223240118
+Developed by: NANDHIKA P
+Register Number: 212223040125
 
 import java.util.Scanner;
 
@@ -58,3 +58,7 @@ public class Solution {
 ## Output:
 
 <img width="397" height="186" alt="image" src="https://github.com/user-attachments/assets/72f4e4a3-2b6b-43cc-b5ff-61acbc979d89" />
+
+
+## Result:
+The program successfully implemented and the expected output is verified.
