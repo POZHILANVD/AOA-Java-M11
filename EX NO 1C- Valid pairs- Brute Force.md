@@ -31,8 +31,8 @@ If true, increment count by 1.
 ```
 /*
 Program to implement Reverse a String
-Developed by: POZHILAN V D
-Register Number: 212223240118
+Developed by: NANDHIKA P
+Register Number: 212223040125
 */
 
 import java.util.Scanner;
@@ -56,3 +56,18 @@ public class CountPairsWithDifference {
             nums[i] = sc.nextInt();
         }
         int k = sc.nextInt();
+        int result = countKDifference(nums, k);
+        System.out.println(result);
+        sc.close();
+    }
+}
+
+```
+
+## Output:
+
+<img width="380" height="276" alt="image" src="https://github.com/user-attachments/assets/c23c388d-8d12-4052-9b5f-4a7563bfdff4" />
+
+
+## Result:
+The program successfully implemented and the expected output is verified.
